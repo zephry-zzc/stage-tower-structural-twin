@@ -6,15 +6,9 @@
 
 仓库推送到 `main` 后，GitHub Actions 会自动发布当前目录。首次发布时，在仓库的 **Settings → Pages → Build and deployment** 中将 **Source** 设为 **GitHub Actions**。
 
-## 本地预览
-
-在此目录运行：
-
-```powershell
-node .\serve.mjs 8765
-```
-
-然后打开 `http://127.0.0.1:8765/`。页面需通过 HTTP 服务访问，不能直接双击 HTML 文件。
+## 本地
+打开 `https://zephry-zzc.github.io/stage-tower-structural-twin/`。
+页面需通过 HTTP 服务访问，不能直接双击 HTML 文件。
 
 ## 文件
 
